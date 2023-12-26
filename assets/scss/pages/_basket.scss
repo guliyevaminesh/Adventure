@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    .nav{
+        width: 85%;
+        margin: auto;
+        .collapseDiv{
+            justify-content: flex-end;
+                ul{
+                    display: flex;
+                    gap: 20px;
+                    li{
+                        font-weight: 600;
+                        a{
+                            color: white;
+                        }
+                    }
+                }
+        }
+    }
+}
+
+#somefeatures{
+    width: 100%; 
+padding: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+.somefeaturescontainer{
+     width: 85%;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .somefeaturestext{
+             text-align: center;
+            margin: 0 auto;
+              p{
+                color: grey;
+            }
+        }
+
+        .filter{
+            width: 85%;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        #featuresproducts{
+            display: flex;
+            flex-wrap: wrap;
+            .remBox{
+                margin-bottom: 25px;
+                img{
+                    max-width: 100%;
+                    margin-bottom: 10px;
+                }
+                button{
+                    border: none;
+                width: 150px;
+                height: 35px;
+                border-radius: 15px;
+                margin-top: 30px;
+                background-color: darkcyan;
+                color: white;
+                &:hover{
+                    background-color: transparent;
+                    border: 1px solid white;
+                    color: black;
+                    
+                }
+                }
+
+            }
+        }
+    }
+}
+}
+
